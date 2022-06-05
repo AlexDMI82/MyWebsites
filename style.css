@@ -1,0 +1,197 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+.container { 
+   display: grid;
+   place-items: center;
+   height: 20vh;
+   width: fit-content;
+   grid-template-columns: 1fr auto;
+   margin: 0px;
+   padding: 0px;   
+   
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+
+.header {
+  display: grid;
+  place-items: center;
+  place-items: center;
+}
+
+.box1{
+  background-color: #209CEE; 
+  padding: 25px;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box2 {
+  background-color: #209CEE;
+  background: linear-gradient( to left, #1b2623, #209CEE);
+  padding: 25px;
+
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
+ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;  
+  
+}
+
+li {
+  background-color: #209CEE; 
+  border : 1px solid #ccc;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li :hover{
+color: rgb(0, 0, 0);
+}
+
+
+li a{
+  font-size: 1.5em;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+
+h1 {
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    margin: 0;
+    font-family: 'Leckerli One', cursive;
+   
+}
+
+h2{
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+  margin: 0;
+  font-family: 'Leckerli One', cursive;
+  
+}
+
+h3{
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0;
+  padding-left: 20px;
+  
+}
+
+
+
+.container2 {
+  display: flex;   
+  flex-direction: row; 
+  place-items: center; 
+  width: 100vw;
+  margin-top: 200px;  
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  column-gap: 50px;
+ 
+  
+}
+/**
+@media (max-width: 1200px) {
+  .container2 {
+    flex-direction: column;    
+    row-gap: 10px;
+    font-size: 0.6em;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {      
+   
+    font-size: 0.8em;
+  }
+  li {
+    font-size: 0.6em;
+  }
+}
+*/
+@media (max-width: 800px) {
+  .container {      
+   
+    font-size: 1em;
+  }
+  li {
+    font-size: 0.8em;
+  }
+  .nav{
+    margin-left: -10px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container2 {
+    flex-direction: column;    
+    row-gap: 10px;
+    font-size: 0.8em;
+    margin-top: 10px;
+  }
+}
+
+
+.card{
+  
+  place-items: center;  
+  width: fit-content;
+  grid-template-columns: 1fr auto;
+  margin: 0px;
+  padding: 0px;  
+}
+
+.card-text{
+  display: flex;
+  border: 1px solid #ccc;
+  background: #209CEE;
+  
+  padding: 50px;
+  justify-content: center;  
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  background: rgb(37, 3, 52);  
+  padding: 40px;
+}
+
+.card-box :hover{
+  color: red;
+  cursor: pointer;
+}
